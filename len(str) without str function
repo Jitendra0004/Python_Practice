@@ -1,0 +1,8 @@
+def len(str):
+    counter =0
+    for i in str:
+        counter+=1
+    return counter
+
+n = str(input("Enter the word : "))
+print ("The length of", n, "is", len(n))
